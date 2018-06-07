@@ -16,7 +16,6 @@ class String
 
   def count_sentences
   arr = self.split(/[.!?]/)
-  puts arr
   arr.map.with_index{|x, i|
      if arr[i].size <= 1
         arr.delete_at(i)
